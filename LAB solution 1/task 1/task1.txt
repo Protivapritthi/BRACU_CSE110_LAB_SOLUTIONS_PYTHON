@@ -1,0 +1,5 @@
+i = int(input("Enter marks: "))
+if i <50:
+    print ("You shall not pass!")
+else:
+    print("You shall pass!")
