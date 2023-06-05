@@ -1,0 +1,12 @@
+def calculate_time(seconds):
+    hours = seconds // 3600
+    seconds %= 3600
+    minutes = seconds // 60
+    seconds %= 60
+    return hours, minutes, seconds
+
+input_seconds = int(input("Enter the number of seconds: "))
+hours, minutes, seconds = calculate_time(input_seconds)
+print("Hours:", hours)
+print("Minutes:", minutes)
+print("Seconds:", seconds)
