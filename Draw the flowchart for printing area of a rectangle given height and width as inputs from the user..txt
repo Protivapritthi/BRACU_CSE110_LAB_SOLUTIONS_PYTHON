@@ -1,7 +1,0 @@
-if __name__ == '__main__':
-    print ("height:")
-    height = int(input())
-    print ("width:")
-    width = int(input())
-    print ("AREA:") 
-    print (height*width)
